@@ -13,6 +13,10 @@
 		63A0A90F1E7F810900D05E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A0A90E1E7F810900D05E30 /* Assets.xcassets */; };
 		63A0A9121E7F810900D05E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A0A9101E7F810900D05E30 /* LaunchScreen.storyboard */; };
 		63A0A91D1E7F810900D05E30 /* Practice_MVC_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0A91C1E7F810900D05E30 /* Practice_MVC_2Tests.swift */; };
+		63A0A9281E7F818B00D05E30 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0A9271E7F818B00D05E30 /* CalculatorViewController.swift */; };
+		63A0A9301E7F844200D05E30 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0A92F1E7F844200D05E30 /* ResultsViewController.swift */; };
+		63EDC0571E7F9809007C8534 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDC0561E7F9809007C8534 /* GraphView.swift */; };
+		63EDC05F1E7FD794007C8534 /* GraphView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EDC05E1E7FD794007C8534 /* GraphView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		63A0A9181E7F810900D05E30 /* Practice MVC 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice MVC 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A0A91C1E7F810900D05E30 /* Practice_MVC_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_MVC_2Tests.swift; sourceTree = "<group>"; };
 		63A0A91E1E7F810900D05E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A0A9271E7F818B00D05E30 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		63A0A92F1E7F844200D05E30 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		63EDC0561E7F9809007C8534 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		63EDC05E1E7FD794007C8534 /* GraphView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,13 @@
 				63A0A9071E7F810900D05E30 /* AppDelegate.swift */,
 				63A0A9091E7F810900D05E30 /* ViewController.swift */,
 				63A0A90B1E7F810900D05E30 /* Main.storyboard */,
+				63A0A9271E7F818B00D05E30 /* CalculatorViewController.swift */,
+				63A0A92F1E7F844200D05E30 /* ResultsViewController.swift */,
 				63A0A90E1E7F810900D05E30 /* Assets.xcassets */,
 				63A0A9101E7F810900D05E30 /* LaunchScreen.storyboard */,
 				63A0A9131E7F810900D05E30 /* Info.plist */,
+				63EDC0561E7F9809007C8534 /* GraphView.swift */,
+				63EDC05E1E7FD794007C8534 /* GraphView2.swift */,
 			);
 			path = "Practice MVC 2";
 			sourceTree = "<group>";
@@ -199,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EDC0571E7F9809007C8534 /* GraphView.swift in Sources */,
 				63A0A90A1E7F810900D05E30 /* ViewController.swift in Sources */,
+				63A0A9281E7F818B00D05E30 /* CalculatorViewController.swift in Sources */,
 				63A0A9081E7F810900D05E30 /* AppDelegate.swift in Sources */,
+				63EDC05F1E7FD794007C8534 /* GraphView2.swift in Sources */,
+				63A0A9301E7F844200D05E30 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +422,7 @@
 				63A0A9231E7F810900D05E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A0A9241E7F810900D05E30 /* Build configuration list for PBXNativeTarget "Practice MVC 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +431,7 @@
 				63A0A9261E7F810900D05E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
